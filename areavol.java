@@ -29,9 +29,9 @@ public class areavol{
 				{System.out.println("Enter height and radius");
 					h=in.nextInt();
 					r=in.nextInt();
-					area=(2*3.14*r*h)+(2*3.14*r*r);
-					vol=3.14*r*r*h;
-				System.out.println("area of cylinder:"+area+"and its vol:"+vol);
+					area=4*3.14*r*r;
+					vol=(4/3)*3.14*r*r*r;
+				System.out.println("area of sphere:"+area+"and its vol:"+vol);
 				break;}
 					
 			}
